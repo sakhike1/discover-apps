@@ -29,6 +29,7 @@
                   class="flex bg-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-900 to-black group-hover:text-black p-10 rounded-xl bg-opacity-0 backdrop-filter backdrop-blur-lg items-center mt-6"
                 >
                   <img
+                    v-animate-onscroll="'animated flip'"
                     class="object-cove animate__animated animate__fadeInUp object-center w-10 h-10 rounded-full"
                     src="@/assets/1655994702089.jpg"
                     alt=""
@@ -95,6 +96,7 @@
                 class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0"
               >
                 <img
+                  v-animate-onscroll="'animated flip'"
                   src="@/assets/secure-folder.png"
                   alt=""
                   fill="none"
@@ -132,6 +134,7 @@
                 class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0"
               >
                 <img
+                  v-animate-onscroll="'animated flip'"
                   src="@/assets/notification (1).png"
                   alt=""
                   fill="none"
@@ -149,6 +152,7 @@
                 class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0"
               >
                 <img
+                  v-animate-onscroll="'animated flip'"
                   src="@/assets/man.png"
                   alt=""
                   fill="none"
